@@ -88,3 +88,8 @@ img {
     height: 70%;
   }
 }
+
+.media:hover {
+  box-shadow: 5px -5px darkred;
+  border-radius: 4px;
+}
