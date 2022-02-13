@@ -76,6 +76,10 @@ a {
   background: #ece9e6;
 }
 
+.card:hover {
+  background-color: white;
+}
+
 .card__body {
   padding: 2rem;
   display: flex;
