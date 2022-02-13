@@ -35,6 +35,16 @@ body {
   font-size: 85px;
 }
 
+.navv {
+  font-family: "Marcellus SC", serif;
+  font-size: 25px;
+  color: #e1e1e1;
+}
+
+.navv:hover {
+  background-color: #000000;
+}
+
 .intro {
   font-family: "Marcellus SC", serif;
   font-size: 25px;

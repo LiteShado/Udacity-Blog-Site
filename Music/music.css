@@ -9,6 +9,10 @@ body {
   font-family: "Marcellus SC", serif;
 }
 
+.tagline {
+  color: rgb(218, 58, 58);
+}
+
 h1 {
   color: white;
   font-size: 36px;
