@@ -20,21 +20,6 @@ body {
   background: #741414;
   background: linear-gradient(to right, #efefef, #630808, #e1e1e1);
   width: 100%;
-  @media only screen and (max-width: 600px) {
-    ...
-  }
-  @media only screen and (min-width: 600px) {
-    ...
-  }
-  @media only screen and (min-width: 768px) {
-    ...
-  }
-  @media only screen and (min-width: 992px) {
-    ...
-  }
-  @media only screen and (min-width: 1200px) {
-    ...
-  }
 }
 
 .container {
@@ -89,9 +74,9 @@ a {
   background-color: white;
 }
 
-#bio-intro {
+.bio-intro {
   font-family: "Marcellus SC", serif;
-  font-size: 25px;
+  font-size: 175%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -99,19 +84,26 @@ a {
   text-align: center;
 }
 
-#biography {
+.biography {
   font-family: "Marcellus SC", serif;
-  font-size: 15px;
+  font-size: 145%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px 100px;
   text-align: center;
+}
+.fig-caption {
+  margin-right: -10%;
 }
 
 #author-pic {
-  height: 250px;
-  width: 250px;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: wrap;
+  margin-left: 15%;
+  margin-top: 5%;
   align-items: center;
   justify-content: center;
 }

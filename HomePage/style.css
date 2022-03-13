@@ -137,7 +137,8 @@ a {
 
 .card__body {
   font-family: "Marcellus SC", serif;
-  background-color: #b62d36;
+  background-color: #5b050b;
+  color: #d5caca;
   font-size: 1.5rem;
   text-transform: capitalize;
 }
