@@ -13,65 +13,81 @@
 }
 
 body {
-    font-family: "Quicksand", sans-serif;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    background: #741414;
-    background: linear-gradient(to right, #000000, #630808, #e1e1e1);
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #741414;
+  background: linear-gradient(to right, #efefef, #630808, #e1e1e1);
+  width: 100%;
+  @media only screen and (max-width: 600px) {
+    ...
   }
+  @media only screen and (min-width: 600px) {
+    ...
+  }
+  @media only screen and (min-width: 768px) {
+    ...
+  }
+  @media only screen and (min-width: 992px) {
+    ...
+  }
+  @media only screen and (min-width: 1200px) {
+    ...
+  }
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin-block: 2rem;
-    gap: 2rem;
-  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
 
-  .title {
-    font-family: "Comforter", cursive;
-    font-size: 85px;
-    text-shadow: #d36f23 2px -2px;
-  }
+.title {
+  font-family: "Comforter", cursive;
+  font-size: 85px;
+  text-shadow: #d36f23 2px -2px;
+}
 
-  .navv {
-    font-family: "Marcellus SC", serif;
-    font-size: 25px;
-    color: #e1e1e1;
-  }
+.navv {
+  font-family: "Marcellus SC", serif;
+  font-size: 25px;
+  color: #000000;
+}
 
-  .navv:hover {
-    background-color: #000000;
-  }
+.navv:hover {
+  background-color: #ffffff;
+}
 
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  .btn {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    background-color: #e1e1e1;
-    border: none;
-    cursor: pointer;
-    margin: 0px 25px 15px;
-    min-width: 150px;
-  }
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: #e1e1e1;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
 
-  .button {
-    align-self: flex-start;
-    padding: .25em .75em;
-    border-radius: .5em;
-    font-size: 0.75rem;
-  }
+.button {
+  align-self: flex-start;
+  padding: 0.25em 0.75em;
+  border-radius: 0.5em;
+  font-size: 0.75rem;
+}
 
-  .button:hover {
-    background-color: white;
-  }
+.button:hover {
+  background-color: white;
+}
 
 #bio-intro {
   font-family: "Marcellus SC", serif;
@@ -98,5 +114,4 @@ body {
   width: 250px;
   align-items: center;
   justify-content: center;
-
 }

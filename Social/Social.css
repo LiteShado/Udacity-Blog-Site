@@ -1,5 +1,16 @@
 h1 {
-    color: white;
-    font-size: 36px;
-    text-align: center;
-  }
+  color: white;
+  font-size: 275%;
+  text-align: center;
+}
+
+.social-title {
+  color: #efefef;
+}
+
+.fa {
+  color: #000000;
+}
+.social-link {
+  font-size: 155%;
+}
