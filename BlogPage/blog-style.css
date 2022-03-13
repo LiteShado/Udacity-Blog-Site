@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
 
 body {
-  margin: 40px;
+  margin: 15%;
   font-family: "Quicksand", sans-serif;
   display: grid;
   place-items: center;
@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 100%;
   margin-block: 2rem;
   gap: 2rem;
 }
@@ -41,11 +41,11 @@ body {
 
 .intro {
   font-family: "Marcellus SC", serif;
-  font-size: 25px;
+  font-size: 150%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 100px;
+  margin: 10%;
   text-align: center;
 }
 article {
@@ -66,8 +66,8 @@ h5 {
 img {
   object-fit: cover;
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 30%;
+  height: 60%;
   justify-content: center;
   align-items: center;
 }
@@ -81,8 +81,8 @@ a {
 }
 .author-span {
   position: relative;
-  width: 45px;
-  height: 45px;
+  width: 55%;
+  height: 55%;
   top: 0.3em;
   left: 1.45em;
   border-radius: 100%;
@@ -90,7 +90,7 @@ a {
   box-sizing: border-box;
 }
 .author-pic {
-  width: 45px;
+  width: 50%;
   height: auto;
   border-radius: 10px;
 }
@@ -131,7 +131,7 @@ a {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  padding: 25%;
   font-size: 150%;
 }
 
