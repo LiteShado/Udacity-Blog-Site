@@ -5,6 +5,10 @@ body {
   background-color: #212121;
 }
 
+.curated {
+  margin-top: 10%;
+}
+
 .title {
   font-family: "Marcellus SC", serif;
 }

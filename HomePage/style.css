@@ -4,6 +4,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
 
+@import url("../AuthorPage/author-style.css");
+
+@import url("../BlogPage/blog-style.css");
+
+@import url("../Music/music.css");
+
+@import url("../Social/Social.css");
+
 *,
 *::before,
 *::after {
@@ -16,7 +24,8 @@ body {
   font-family: "Quicksand", sans-serif;
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 50%;
+  width: 80%;
   background: #741414;
   background: linear-gradient(to right, #efefef, #630808, #e1e1e1);
 }
@@ -25,7 +34,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 100%;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
   margin-block: 2rem;
   gap: 2rem;
 }
@@ -58,7 +76,7 @@ body {
 }
 
 img {
-  object-fit: cover;
+  object-fit: contain;
   max-width: 100%;
   display: block;
 }
@@ -81,8 +99,6 @@ a {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
@@ -94,10 +110,20 @@ a {
 }
 
 .card__body {
+  height: 100%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  font-family: "Marcellus SC", serif;
+  background-color: #5b050b;
+  color: #d5caca;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__image {
+  height: 100%;
 }
 
 .button {
@@ -133,14 +159,6 @@ a {
 .tag-green {
   background: #065415;
   color: #fafafa;
-}
-
-.card__body {
-  font-family: "Marcellus SC", serif;
-  background-color: #5b050b;
-  color: #d5caca;
-  font-size: 1.5rem;
-  text-transform: capitalize;
 }
 
 .citypic {
