@@ -4,13 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
 
-@import url("../AuthorPage/author-style.css");
+@import url("../CSS/author-style.css");
 
-@import url("../BlogPage/blog-style.css");
+@import url("../CSS/blog-style.css");
 
-@import url("../Music/music.css");
+@import url("../CSS/music.css");
 
-@import url("../Social/Social.css");
+@import url("../CSS/Social.css");
 
 *,
 *::before,
